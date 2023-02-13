@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Art | find . -empty -execdir echo {} ';'
+find . empty | ls -laR
