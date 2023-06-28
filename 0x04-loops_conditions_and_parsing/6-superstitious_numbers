@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Write a Bash script that displays numbers from 1 to 20
+# Prints 4 and then bad luck from China for the 4th loop iteration
+# Prints 9 and then bad luck from Japan for the 9th loop iteration
+# Prints 17 and then bad luck from Italy for the 17th loop iteration
+
+i=1
+while ((i <= 20))
+do
+    echo $i
+    if ((i == 4))
+    then
+	echo "bad luck from China"
+    fi
+    if ((i == 9))
+    then
+	echo "bad luck from Japan"
+    fi
+    if ((i == 17))
+    then
+	echo "bad luck from Italy"
+    fi
+    ((i++))
+done
