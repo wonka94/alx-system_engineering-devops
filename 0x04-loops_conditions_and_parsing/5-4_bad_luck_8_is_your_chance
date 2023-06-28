@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# This script loops from 1 to 10
+# Prints "bad luck" for the 4th iteration
+# Prints "good luck" for the 8th loop iteration
+# Prints "Best School" for the other iterations
+
+i=1
+
+while ((i <= 10))
+do
+    if ((i == 4))
+    then
+	echo "bad luck"
+    elif ((i == 8))
+    then
+	echo "good luck"
+    else
+	echo "Best School"
+    fi
+    ((i++))
+done
