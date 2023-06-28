@@ -7,7 +7,7 @@ i=0
 
 while ((i <= 12))
 do
-    echo "Hour: " $i
+    echo "Hour:" $i
     j=1
     while ((j <= 59))
     do
