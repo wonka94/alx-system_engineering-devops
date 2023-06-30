@@ -25,20 +25,9 @@ int main(void)
 			exit(0);
 		}
 	}
-	infinite_while();
+	while (1)
+	{
+		sleep(1);
+	}
 	return (0);
-}
-
-/**
- * infinite_while - runs an infinite loop
- *
- * Return: 0
- **/
-int infinite_while(void)
-{
-    while (1)
-    {
-        sleep(1);
-    }
-    return (0);
 }
