@@ -3,6 +3,11 @@
 #include <unistd.h>
 #include <sys/types.h>
 
+/**
+ * main - creates 5 zombie processes.
+ *
+ * Return: 0
+ **/
 int main(void)
 {
 	int i;
