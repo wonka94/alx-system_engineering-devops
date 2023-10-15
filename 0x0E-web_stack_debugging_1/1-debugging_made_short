@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# Make your nginx server listen on port 80 (shorter and sweet)
-
-sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-pkill -1 nginx
